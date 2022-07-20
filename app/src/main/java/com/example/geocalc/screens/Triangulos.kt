@@ -14,15 +14,16 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
+import com.example.geocalc.components.CustomAppBar
 import com.example.geocalc.ui.theme.GeoCalcTheme
 
 @Composable
 fun TrianguloScreen(navController: NavController) {
     GeoCalcTheme {
         Scaffold (
-            topBar = { generalAppBar(
-                title = { Text("Trigonometría") },
-                onCLickNavIcon = {navController.popBackStack()}
+            topBar = { CustomAppBar(
+                onClickNavIcon = {navController.popBackStack()},
+                title = {Text("Triángulo")}
             )}
         ){
             BodyContent()

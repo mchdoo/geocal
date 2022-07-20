@@ -1,6 +1,8 @@
 package com.example.geocalc.ui.theme
 
+import androidx.compose.material.MaterialTheme
 import androidx.compose.material.Typography
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.TextStyle
 import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
@@ -13,7 +15,8 @@ val Typography = Typography(
     defaultFontFamily = FontFamily(Font(R.font.worksans)),
     body1 = TextStyle(
         fontWeight = FontWeight.Normal,
-        fontSize = 16.sp
+        fontSize = 16.sp,
+        color = Color.White
     ),
     /* Other default text styles to override
     button = TextStyle(
