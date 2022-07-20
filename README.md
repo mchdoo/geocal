@@ -1,3 +1,3 @@
-# geocal
-Geocalc
-Jetpack Compose - MoureDev - Tutorial
+# GeoCalc
+---
+Full Jetpack Compose
